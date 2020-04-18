@@ -1,9 +1,9 @@
-import "@pnotify/core/dist/BrightTheme.css";
-import "@pnotify/core/dist/Material.css";
+import PNotify from "pnotify/dist/es/PNotify.js";
+import PNotifyStyle from "pnotify/dist/es/PNotifyStyleMaterial.js";
+import "material-design-icons/iconfont/material-icons.css";
 
-const defaults = require("@pnotify/core");
-defaults.styling = "material";
-defaults.icons = "material";
-defaults.width = "400px";
+PNotify.defaults.styling = "material";
+PNotify.defaults.icons = "material";
+PNotify.defaults.width = "400px";
 
-export default defaults;
+export default PNotify;
