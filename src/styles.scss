@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.app-title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.input-group {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.country-container {
+  margin: 0 auto;
+  width: 600px;
+}
