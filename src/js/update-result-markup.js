@@ -19,6 +19,9 @@ function makeMurkup(searchResult) {
   if (searchResult.length > 10) {
     PNotify.notice({
       title: "Too many matches found. Please, enter a more specific query",
+      delay: 1500,
+      maxOpen: 1,
+      maxStrategy: "close",
     });
     return;
   }
@@ -26,6 +29,9 @@ function makeMurkup(searchResult) {
   if (searchResult.status === 404) {
     PNotify.error({
       title: "Sorry :( Such country does not exist.",
+      delay: 2000,
+      maxOpen: 1,
+      maxStrategy: "close",
     });
     return;
   }
