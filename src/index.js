@@ -4,7 +4,7 @@ import makeMurkup from "./js/update-result-markup";
 import makeFetch from "./js/make-fetch";
 const debounce = require("lodash.debounce");
 
-refs.searchForm.addEventListener("input", debounce(showResult, 700));
+refs.searchForm.addEventListener("input", debounce(showResult, 500));
 
 function showResult(event) {
   event.preventDefault();
