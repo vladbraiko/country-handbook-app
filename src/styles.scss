@@ -42,15 +42,26 @@ html {
   width: 600px;
 }
 
-.list-unstyled {
+.media {
   font-family: "Muli", sans-serif;
-  font-weight: normal;
+  border-top: 1px solid #bbbbbb;
+  padding-top: 3px;
 }
 
-.media {
+.media:not(:last-child) {
   margin-bottom: 30px;
 }
 
-.card {
+.result-card {
+  margin-top: 30px;
+}
+
+.card-body {
+  padding: 0;
+  padding-left: 20px;
   font-family: "Muli", sans-serif;
+}
+
+.languages-list {
+  list-style: none;
 }
