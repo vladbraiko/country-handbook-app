@@ -9,4 +9,4 @@ This project was made for learning purpose, using
 - pure JavaScript
 - Bootstrap
 - Webpack
-[Pnotify](https://github.com/sciactive/pnotify) plugin
+- [Pnotify](https://github.com/sciactive/pnotify) plugin
