@@ -10,3 +10,28 @@ This project was made for learning purpose, using
 - Bootstrap
 - Webpack
 - [Pnotify](https://github.com/sciactive/pnotify) plugin
+
+
+for quick start:
+
+```shell
+git clone 
+```
+
+Then go to the project folder.
+
+```shell
+cd project_name
+```
+
+Install all dependencies.
+
+```shell
+npm install
+```
+
+And run development mode.
+
+```shell
+npm start
+```
